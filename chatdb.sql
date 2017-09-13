@@ -14,7 +14,7 @@ create table Servers(
 
 create table Users(
     UID int not null unique auto_increment,
-    username varchar(15) not null unique,
+    username varchar(20) not null unique,
     sourcelang varchar(5) not null,
     passhash varchar(60) not null,
     SID int,
